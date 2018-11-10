@@ -6,6 +6,29 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.content-wrapper {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /*
 - *Typefaces:* `Roboto`, `Roboto Condensed`
 - *Text sizes:* `3rem`, `1.5rem`
