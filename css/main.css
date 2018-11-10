@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/*
+- *Typefaces:* `Roboto`, `Roboto Condensed`
+- *Text sizes:* `3rem`, `1.5rem`
+- *Banner maximum height:* `500px`
+- *Banner content maximum width:* `45em`
+*/
+
+/*
+
+.btn {
+  display: inline-block;
+  padding: .48em .9em;
+
+  background-color: #333;
+  border-radius: 8px;
+
+  font-size: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+*/
